@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <form id="login-form">
-      <input type="text" placeholder="이름이 뭔가요?" />
-      <button>로그인</button>
+    <form class="hidden" id="login-form">
+      <input type="text" placeholder="이름이 뭔가요?" maxlength="15" required />
+      <input type="submit" value="로그인" />
     </form>
-    <script src="app.js"></script>
+    <h1 class="hidden" id="greeting"></h1>
+    <h2 id="clock">00:00</h2>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
   </body>
 </html>
