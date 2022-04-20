@@ -13,7 +13,7 @@ body {
   color: aliceblue;
   font-weight: 700;
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
 }
 
 #toDoinput {
@@ -70,5 +70,5 @@ img {
   right: 0px;
   bottom: 0px;
   z-index: -1;
-  opacity: 80%;
+  opacity: 70%;
 }
